@@ -6,15 +6,26 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+h2{
+  text-align: center;
+}
+
 /* Float four columns side by side */
 .column {
   float: left;
-  width: 25%;
+  width: 33%;
   padding: 0 10px;
+  justify-content: center;
+ 
 }
 
 /* Remove extra left and right margins, due to padding */
-.row {margin: 0 -5px;}
+.row {
+  margin-left: 200px;
+  margin-right: 200px;
+  align-content: center;
+}
+
 
 /* Clear floats after the columns */
 .row:after {
@@ -24,7 +35,7 @@ body {
 }
 
 /* Responsive columns */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   .column {
     width: 100%;
     display: block;
@@ -37,8 +48,23 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px;
   text-align: center;
-  background-color: #f1f1f1;
+  background-color: #C2DBD7;
+  height: 420px;
+  width: 310px;
 }
+
+img{
+  padding: 28px;
+  margin-bottom: -43px;
+
+}
+
+
+
+p{
+ padding: .5px; 
+}
+
 
 
 
